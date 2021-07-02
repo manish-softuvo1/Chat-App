@@ -4,7 +4,7 @@ import socketIoClient from "socket.io-client";
 
 
 
-const socket = socketIoClient("http://localhost:8463", { autoConnect: false });
+const socket = socketIoClient("http://localhost:3001", { autoConnect: false });
 
 
 const Message = ({ msg }) => {

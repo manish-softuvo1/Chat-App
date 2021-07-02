@@ -4,7 +4,7 @@ const db = require("./db/db.js");
 const Message = require("./models/message.js");
 
 const port = 3001;
-const dbUrl = "mongodb://localhost:27017/chat-demo";
+const dbUrl = "mongodb://localhost:27017/chatsocket";
 const frontUrl = "http://localhost:3000";
 
 
